@@ -1,0 +1,15 @@
+Start 
+Prompt user for the coupon amount as decimal and store in ‘coupon_amount’
+If ‘coupon_amount’ is greater than 1.0 or less than or equal to 0:
+	Set ‘coupon_amount’ to 0.10
+Initialize empty list ‘weekly_bills’
+For each week from 1 to 4:
+	Prompt the user for grocery bill that week and append to ‘weekly_bills’
+Calculate monthly total for groceries without coupon as the sum of ‘weekly_bills’
+Calculate weekly average for groceries without coupon as monthly total divided by 4
+Calculate monthly total for groceries with coupon as ‘monthly_total_without_coupon’ multiplied by ‘coupon_amount’
+Calculate monthly total for groceries with coupon as ‘monthly_total_without_coupon’ minus discount 
+Calculate weekly average for groceries with coupon as monthly total with coupon divided by 4
+Display monthly total and weekly average without coupon
+Display monthly total and weekly average with coupon
+End
